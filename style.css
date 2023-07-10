@@ -158,3 +158,62 @@
 #service-description{
     margin-bottom: 15px;
 }
+/* instagram section style */
+.instagram{
+    text-align: center;
+}
+.insta-images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 100px;
+    padding-top: 0;
+  
+
+}
+.insta-images-list{
+    width: 200px;
+    
+}
+#insta-id{
+    margin-bottom: 25px;
+}
+
+/* latest deal section style */
+.banner{
+    text-align: center;
+    background-image: url('images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1120px;
+    height: 300px;
+    margin: 50px 30px 50px 110px;
+
+ 
+
+}
+.deal-title{
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 60px;
+ padding-top: 80px;
+ margin-bottom: 10px;
+}
+.deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0px;
+   
+}
+ div input{
+    padding: 10px 200px 10px 10px;
+    border-radius: 5px;
+    border: 0;
+    
+} 
+
