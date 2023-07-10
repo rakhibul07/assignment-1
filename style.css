@@ -217,3 +217,26 @@
     
 } 
 
+/* footer section style */
+.footer-section{
+    text-align: center;
+    background-color: #111010;
+    height: 35vh;
+
+}
+.footer-title{
+color: white;
+font-size: 30px;
+padding:50px 100px 0px 100px;
+}
+#flower{
+    color: #E55473;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+   
+ 
+}
+#copyright{
+    color: rgba(255, 255, 255, 0.40);
+}
