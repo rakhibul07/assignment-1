@@ -1,0 +1,43 @@
+/* shared style */
+.btn-primary {
+    padding: 10px 25px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+
+}
+
+.btn-text {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* home section related style */
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.home-title {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.home-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+   
+}
+
+.first-pic {
+    width: 400px;
+    height: 500px;
+    margin-bottom: 0;
+}
