@@ -126,7 +126,7 @@
     align-items: center;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin: 50px 100px;
+    margin: 40px 100px;
     padding: 50px 70px;
     text-align: center;
 }
@@ -136,4 +136,25 @@
     font-size: 15px;
     font-weight: 600;
 
+}
+
+/* sign-up section style */
+.sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  background-color: rgba(229, 84, 115, 0.05);
+    border-radius: 8px;
+    text-align: center;
+    margin: 80px 0;
+    height: 70vh;
+}
+#rose-pic{
+    width: 200px;
+}
+#btn{
+    margin-top: 0px;
+}
+#service-description{
+    margin-bottom: 15px;
 }
