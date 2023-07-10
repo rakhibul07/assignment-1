@@ -52,7 +52,8 @@
 .featured {
     text-align: center;
 }
-.featured-parent{
+
+.featured-parent {
     margin: 100px 15px;
 }
 
@@ -115,4 +116,24 @@
     color: #272727;
     text-decoration: underline;
     font-weight: bold;
+}
+
+/* service section start */
+
+.service {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 50px 100px;
+    padding: 50px 70px;
+    text-align: center;
+}
+
+.box-text {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 15px;
+    font-weight: 600;
+
 }
