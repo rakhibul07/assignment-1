@@ -1,4 +1,9 @@
 /* shared style */
+/* * {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+} */
+
 .btn-primary {
     padding: 10px 25px;
     border-radius: 8px;
@@ -33,11 +38,81 @@
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
-   
+
 }
 
 .first-pic {
     width: 400px;
     height: 500px;
     margin-bottom: 0;
+}
+
+
+/* featured related style */
+.featured {
+    text-align: center;
+}
+.featured-parent{
+    margin: 100px 15px;
+}
+
+.featured-title {
+    color: #272727;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+
+}
+
+.featured-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+
+}
+
+.featured-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 50px;
+
+}
+
+.images {
+    width: 200px;
+}
+
+.pic-1 {
+    border-top-right-radius: 150px;
+    border-top-left-radius: 150px;
+    background-color: rgba(167, 33, 98, 0.15);
+    padding: 60px 58px 0px 58px;
+
+}
+
+.pic-2 {
+    border-top-right-radius: 150px;
+    border-top-left-radius: 150px;
+    background-color: rgba(5, 151, 160, 0.15);
+    padding: 80px 58px 60px 58px;
+
+
+}
+
+.pic-3 {
+    border-top-right-radius: 150px;
+    border-top-left-radius: 150px;
+    background-color: rgba(71, 125, 17, 0.15);
+    padding: 35px 58px 0px 48px;
+
+
+}
+
+.flower-tree {
+    text-align: center;
+    color: #272727;
+    text-decoration: underline;
+    font-weight: bold;
 }
