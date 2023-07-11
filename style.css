@@ -227,7 +227,7 @@
 .footer-title{
 color: white;
 font-size: 30px;
-padding:50px 100px 0px 100px;
+padding:50px 100px 0px 100px ;
 }
 #flower{
     color: #E55473;
@@ -239,4 +239,33 @@ padding:50px 100px 0px 100px;
 }
 #copyright{
     color: rgba(255, 255, 255, 0.40);
+}
+/* review section style */
+.review{
+    background-color: rgb(223, 176, 191);
+    margin: 50px 100px;
+    height: 70px;
+}
+.review-title{
+    text-align: center;
+    padding:20px 80px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#review{
+    color:rgb(190, 16, 74);
+}
+.review-box-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.review-box{
+    background-color: whitesmoke;
+    gap: 20px;
+    margin: 20px 100px;
+}
+.icon-color{
+    color: pink;
 }
