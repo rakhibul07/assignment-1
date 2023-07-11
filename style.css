@@ -44,6 +44,7 @@
 
 
 /* featured related style */
+/* shared style */
 .featured {
     text-align: center;
 }
@@ -113,7 +114,7 @@
     font-weight: bold;
 }
 
-/* service section start */
+/* service section related style */
 
 .service {
     display: flex;
@@ -134,48 +135,56 @@
 }
 
 /* sign-up section style */
-.sign-up{
+.sign-up {
     display: flex;
     align-items: center;
     justify-content: space-around;
-  background-color: rgba(229, 84, 115, 0.05);
+    background-color: rgba(229, 84, 115, 0.05);
     border-radius: 8px;
     text-align: center;
     margin: 80px 0;
     height: 70vh;
 }
-#rose-pic{
+
+#rose-pic {
     width: 200px;
 }
-#btn{
+
+#btn {
     margin-top: 0px;
 }
-#service-description{
+
+#service-description {
     margin-bottom: 15px;
 }
+
 /* instagram section style */
-.instagram{
+
+.instagram {
     text-align: center;
 }
-.insta-images{
+
+.insta-images {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px 100px;
     padding-top: 0;
-  
+
 
 }
-.insta-images-list{
+
+.insta-images-list {
     width: 200px;
-    
+
 }
-#insta-id{
+
+#insta-id {
     margin-bottom: 25px;
 }
 
 /* latest deal section style */
-.banner{
+.banner {
     text-align: center;
     background-image: url('images/Rectangle\ 9.png');
     background-repeat: no-repeat;
@@ -184,81 +193,62 @@
     width: 1120px;
     height: 300px;
     margin: 50px 30px 50px 110px;
-
- 
-
 }
-.deal-title{
+
+.deal-title {
     color: #272727;
     text-align: center;
     font-size: 30px;
     font-weight: 800;
     margin-top: 60px;
- padding-top: 80px;
- margin-bottom: 10px;
+    padding-top: 80px;
+    margin-bottom: 10px;
 }
-.deal-description{
+
+.deal-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-style: normal;
     font-weight: 400;
     margin-top: 0px;
-   
+
 }
- div input{
+
+div input {
     padding: 10px 200px 10px 10px;
     border-radius: 5px;
     border: 0;
-    
-} 
-
-/* footer section style */
-.footer-section{
-    text-align: center;
-    background-color: #111010;
-    height: 35vh;
 
 }
-.footer-title{
-color: white;
-font-size: 30px;
-padding:50px 100px 0px 100px ;
-}
-#flower{
-    color: #E55473;
-}
-.footer-description{
-    color: rgba(255, 255, 255, 0.90);
-   
- 
-}
-#copyright{
-    color: rgba(255, 255, 255, 0.40);
-}
+
 /* review section style */
-.review{
+.review {
     background-color: rgb(223, 176, 191);
     margin: 80px 100px 20px 100px;
     height: 70px;
 
 }
-.review-title{
+
+.review-title {
     text-align: center;
-    padding:20px 80px;
+    padding: 20px 80px;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 0;
 }
-#review{
-    color:rgb(190, 16, 74);
+
+#review {
+    color: rgb(190, 16, 74);
 }
-.review-box-container{
+
+.review-box-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
 }
-.review-box{
+
+.review-box {
     background-color: #2727270D;
     gap: 20px;
     margin: 20px 100px;
@@ -266,12 +256,82 @@ padding:50px 100px 0px 100px ;
     padding: 10px;
     border-radius: 15px pink;
 }
-.icon-color{
+
+.icon-color {
     color: pink;
 }
-.user-pic{
-    border-radius: 50px 50px 50px 50px ;
+
+.user-pic {
+    border-radius: 50px 50px 50px 50px;
     background-color: pink;
-    
-    
 }
+
+/* review section style */
+.review {
+    background-color: rgb(223, 176, 191);
+    margin: 80px 100px 20px 100px;
+    height: 70px;
+}
+.review-title {
+    text-align: center;
+    padding: 20px 80px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0;
+}
+#review {
+    color: rgb(190, 16, 74);
+}
+.review-box-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.review-box {
+    background-color: #2727270D;
+    gap: 20px;
+    margin: 20px 100px;
+    border: 0;
+    padding: 10px;
+    border-radius: 15px pink;
+}
+
+.icon-color {
+    color: pink;
+}
+
+.user-pic {
+    border-radius: 50px 50px 50px 50px;
+    background-color: pink;
+}
+
+/* footer section style */
+.footer-section {
+    text-align: center;
+    background-color: #111010;
+    height: 35vh;
+
+}
+
+.footer-title {
+    color: white;
+    font-size: 30px;
+    padding: 50px 100px 0px 100px;
+}
+
+#flower {
+    color: #E55473;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+
+
+}
+
+#copyright {
+    color: rgba(255, 255, 255, 0.40);
+}
+
