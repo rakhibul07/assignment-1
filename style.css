@@ -323,6 +323,7 @@ div input {
 }
 .images{
     width: 100%;
+    padding: 10px;
 }
 .service, .sign-up{
     flex-direction: column;
@@ -338,5 +339,6 @@ div input {
 }
 .banner{
     width: 100%;
+    margin: auto;
 }
 }
